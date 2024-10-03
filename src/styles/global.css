@@ -1,0 +1,43 @@
+/* eslint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* eslint-enable */
+
+:root {
+  /*main colors*/
+  --primaryColor: #2999fd; /* clear blue*/
+  --secondaryColor: #0e3585; /* dark blue*/
+  --tertiaryColor: #6b65f2; /* purple */
+  /* background colors*/
+  --whiteColor: #ffffff; /* white*/
+  --backgroundLightColor: #f3f5f9; /* light grey*/
+  --backgroundDarkColor: #d9d9d9; /* grey*/
+  --backgroundFirstSpecialColor: #6b65f2; /* purple */
+  --backgroundSecondSpecialColor: #a1d3ff; /* blue */
+  --backgroundthirdSpecialColor: #f4ccff; /* pink */
+  --backgroundFourthSpecialColor: #d4ebff; /* pale blue */
+  --backgroundFifthSpecialColor: #e1e0fc; /* pale purple */
+  --backgroundSixthSpecialColor: #fafafa; /* light grey */
+  /* dark mode colors*/
+  --blackColor: #000000; /* black*/
+  /* font colors*/
+  --fontMediumColor: #2c2c2c;
+  --fontLightColor: #6b6464;
+  --fontSpecialColor: #577eaa; /*blue*/
+  --fontRedColor: #eb5757; /*red*/
+}
+
+@layer base {
+  body {
+    @apply font-sans font-normal;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-intro font-bold;
+  }
+}

@@ -1,0 +1,57 @@
+/* Avenir */
+@font-face {
+  font-family: 'Avenir';
+  src: url('../assets/fonts/Avenir/Avenir-Roman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../assets/fonts/Avenir/Avenir-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../assets/fonts/Avenir/Avenir-Heavy.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../assets/fonts/Avenir/Avenir-Book.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Intro */
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/fonts/intro-2/Intro-Regular-Alt.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/fonts/intro-2/Intro-Bold-Alt.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/fonts/intro-2/Intro-Light-Alt.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/fonts/intro-2/Intro-Thin-Alt.otf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
